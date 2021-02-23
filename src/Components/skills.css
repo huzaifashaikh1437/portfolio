@@ -1,0 +1,25 @@
+.skills {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.skills h1 {
+    text-align: center;
+    display: inline-block;
+    color: #9C27B0;
+    font-weight: 500;
+    border-bottom: 2px solid #d05ce3;
+}
+.skills__items {
+    width: 100%;
+}
+
+.skills__lang {
+    background-image: linear-gradient(to top left, #c392ca, #9C27B0);
+    color: #fff;
+    border-radius: 10px;
+}
+.skills__lang p {
+    font-size: 1.2rem;
+}

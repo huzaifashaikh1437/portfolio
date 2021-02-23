@@ -1,0 +1,88 @@
+.intro {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.intro__name {
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.intro__name h1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 10vh;
+}
+.intro__name h1,h3 {
+    font-weight: 400;
+}
+.intro__name span {
+    padding: 0px 5px;
+    display: block;
+    color: #9C27B0;
+    border-right: 3px solid #000;
+    overflow: hidden;
+    white-space: nowrap;
+    animation:blinkText 4s steps(15), carret .8s infinite steps(2);
+    
+}
+.intro__social {
+    width: 50%;
+}
+.intro__social ul li a {
+    font-size: 2rem;
+    color: #9C27B0;
+}
+.intro__developer{
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+    padding: 0px 10px;
+    display: flex;
+    justify-content: center;
+}
+.intro__developer img {
+    width: 70%;
+    height: 400px;
+}
+@keyframes carret {
+    0%{
+        border-color: #000;
+    }
+    100% {
+        border: none;
+    }
+}
+@keyframes blinkText {
+    from {
+        width: 0ch;
+    }
+    to {
+        width: 15ch;
+    }
+}
+@media (max-width:768px){
+    html {
+        font-size: 80%;
+    }
+    .intro__developer img {
+        width: 100%;
+    }
+    .intro__developer {
+        padding: 0px;
+    }
+    .intro__name h3 {
+        margin-top: 40px;
+        padding: 0px 10px;
+        line-height: 1.5;
+    }
+}
+@media (max-width:768px){
+    html {
+        font-size: 70%;
+    }
+    .intro__name h3 {
+        margin-top: 0;
+    }
+}
