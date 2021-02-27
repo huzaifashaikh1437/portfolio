@@ -3,6 +3,7 @@ import Projects from './Projects'
 import Education from './Education'
 import Intro from './Intro'
 import Skills from './Skills'
+import Contact from './Contact'
 
 function Main() {
     return (
@@ -11,6 +12,7 @@ function Main() {
             <Education/>
             <Skills/>
             <Projects/>
+            <Contact/>
         </div>
     )
 }

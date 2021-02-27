@@ -1,0 +1,24 @@
+.contact {
+    height: 60vh;
+    text-align: center;
+}
+.contact h1 {
+    margin-top: 20px;
+    display: inline-block;
+    color: #9C27B0;
+    font-weight: 500;
+    border-bottom: 2px solid #d05ce3;
+}
+
+.contact textarea {
+    height: 30vh !important;
+}
+
+.contact input:focus,textarea:focus {
+    border-color: #d05ce3 !important;
+    box-shadow: 0 0 0 0.2rem rgba(208, 92, 227,.3) !important;
+}
+.submit{
+    background: #d05ce3 !important;
+    color: #fff !important;
+}

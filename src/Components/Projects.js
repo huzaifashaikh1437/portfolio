@@ -7,11 +7,11 @@ function Projects() {
     return (
         <div className="projects" id="projects">
             <h1>Projects</h1>
-            <div className="projects__container row d-flex flex-row justify-content-around align-items-center">
+            <div className="projects__container row d-flex flex-row justify-content-around align-items-center mt-5">
             {
                 projects.map((project)=>(
                     <Fade bottom>
-                    <div className="project__image col-md-3 col-12 px-md-0 px-5 my-md-0 my-5">
+                    <div className="project__image col-md-3 col-10 mt-5">
                         <div className="project__image__layer d-flex flex-column justify-content-center align-items-center">
                             <h3 className="text-white">{project.title}</h3>
                             <Button className="project__btn"><a href={project.link} target="__blank">View Project</a></Button>

@@ -3,9 +3,9 @@ import './education.css';
 import Fade from 'react-reveal/Fade';
 function Education() {
     return (
-        <div className="education" id="education">
+        <div className="education container-fluid" id="education">
             <h1 className="text-center mx-auto w-50">Education</h1>
-            <div className="row d-flex justify-content-around align-items-center mx-md-0 mx-4">
+            <div className="row d-flex justify-content-around align-items-center px-md-0 px-4">
                 <Fade left>
                     <div className="school col-md-4 col-12">
                         <h2>Matriculation</h2>

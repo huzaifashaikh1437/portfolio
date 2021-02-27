@@ -6,7 +6,7 @@ function Skills() {
     return (
         <div className="skills" id="skills">
             <h1>Skills</h1>
-            <div className="skills__items row d-flex h-100 justify-content-between px-md-2 px-4 mt-3">
+            <div className="skills__items row d-flex h-100 justify-content-between px-md-2 px-5 mt-3">
 
                 <Fade bottom>
                     <div className="skills__lang col-md-3 d-flex flex-column justify-content-center align-self-md-start mt-md-0 mt-5">
